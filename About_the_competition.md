@@ -28,19 +28,47 @@ creative_id | 创意id
 creative_type | 创意类型
 creative_tp_dnf | 样式定向id
 creative_has_deeplink | 相应素材是否有deeplink(Boolean)
+creative_is_jump | 是否是落地页跳转(Boolean) 
+creative is download | 是否是落地页下载(Boolean) 
+creative_is_js | 是否为js素材(Boolean) 
+creative is_ voiced | 是否是语音广告(Boolean) 
+creative width | 创意宽
+creative_height | 创意高
 
-媒体信息：
 
+媒体信息:
+
+字段 | 解释
+---- | ----
+app_cate_id | app分类
+f-channel | 一级频道
+app_id | 媒体id
+inner_slot_id | 媒体广告位
+app_paid | app是否付费
 
 
 用户信息：
 
+字段 | 解释
+---- | ----
+user_tags | 用户标签信息，以逗号分隔
 
 
 上下文信息：
 
-
-
+字段 | 解释
+---- | ----
+city | 城市
+carrier | 运行商
+time | 时间戳
+province | 省份
+nnt | 联网类型
+deytype | 设备类型
+os_name | 操作系统名称操作
+osv | 系统版本
+os | 操作系统
+make | 品牌（例如: apple）
+model | 机型（例如:"iphone"）
 
 
 补充说明：
